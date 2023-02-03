@@ -20,7 +20,7 @@ export class HomePage {
         this.fb.login(['public_profile', 'email'])
           .then((res: FacebookLoginResponse) => {
             console.log('Facebook response: ', res);
-          
+
             if (res.status === 'connected') {
               console.log('res facebook: ', res);
               this.facebookGetData(res.authResponse.userID);
