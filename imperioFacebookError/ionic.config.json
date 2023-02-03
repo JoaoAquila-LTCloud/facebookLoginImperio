@@ -1,0 +1,7 @@
+{
+  "name": "imperioFacebookError",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

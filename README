@@ -1,0 +1,4 @@
+FIRST THINGS FIRST: npm install + ionic cordova platform add android@latest
+RUN: ionic cordova run android 
+
+IF U NEED TO CHECK THE DISPOSITIVES LIST: ionic cordova run android --list 
